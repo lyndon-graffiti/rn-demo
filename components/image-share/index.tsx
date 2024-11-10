@@ -1,4 +1,4 @@
-import { useImageShare } from "@/hooks/useImageShare";
+import { useImageShare } from "@/hooks/image-share/useImageShare";
 import { View, Text, Image, StyleSheet, TouchableOpacity } from "react-native";
 
 export default () => {
@@ -36,7 +36,7 @@ export default () => {
 
   return (
     <View style={styles.container}>
-      <Image source={require("../assets/image-share/init.png")} />
+      <Image source={require("../../assets/image-share/init.png")} />
       <Text style={styles.text}>Share the phone image with friends</Text>
       <TouchableOpacity style={styles.button} onPress={openImageLibrary}>
         <Text style={styles.buttonText}>Share Image</Text>

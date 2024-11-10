@@ -1,5 +1,5 @@
-import ImageShare from "@/components/ImageShare";
+import SearchInput from "@/components/search-input";
 
 export default function Index() {
-  return  <ImageShare />;
+  return <SearchInput />;
 }
